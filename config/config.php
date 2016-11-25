@@ -7,34 +7,34 @@
 
 
 // set local timezone
-date_default_timezone_set('America/New_York');
+date_default_timezone_set('Europe/Prague');
 
 // General
-$projectName="STANLEY";
-$projectEmail="stanley@ideo.com";
-$projectPhoneNumber="YOUR PHONE NUMBER";
+$projectName="roo-bot";
+$projectEmail="davesade.42@gmail.com";
+$projectPhoneNumber="+420731128030";
 
 
 // Twilio API credentials
-$accountSid = "YOUR ACCOUNT SID";
-$authToken = "YOUR ACCOUNT TOKEN"; //
-$twilioPhoneNumber = "YOUR TWILIO PHONE NUMBER";
-$siteURL="YOUR SITE URL";
+$accountSid = "SK970d31fefe3ee387245abddc464efa61";
+$authToken = "7UZKKpo8ffmcsUiYYQrCOjBVFvJyxFei"; //
+$twilioPhoneNumber = "+420731128030";
+$siteURL="www.hernisnob.cz";
 
 
 // Slack Webhook integration
-$slackWebHookURL="YOUR SLACK PRIVATE CHANNEL WEB HOOK";
-$slackRoom = "THE NAME OF YOUR SLACK ROOM";
-$slackBotName = "Stanley"; //THE NAME OF YOUR BOT
+$slackWebHookURL="https://hooks.slack.com/services/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";
+$slackRoom = "#ci";
+$slackBotName = "Roo-Bot"; //THE NAME OF YOUR BOT
 $slackBotIcon = ":robot_face:"; // THE PROFILE IMAGE OF YOUR BOT example :money_mouth_face: or :shit:
 
 
 // Database Stuff
-$dbHost = "THE DATABASE HOST ADDRESS";
-$dbName = "THE DATABASE NAME";
-$dbUserName = "THE DATABASE USERNAME";
-$dbPassword = "THE DATABASE PASSWORD";
-$dbTable = "THE NAME OF THE DATABASE TABLE";
+$dbHost = "eu-cdbr-west-01.cleardb.com";
+$dbName = "heroku_9898205cdd5eb0f";
+$dbUserName = "bcfce55be59a44";
+$dbPassword = "eca8fd6a";
+$dbTable = "roo-bot";
 
 $dbConnection = mysqli_connect($dbHost, $dbUserName, $dbPassword,$dbName);
 mysqli_error($dbConnection);
