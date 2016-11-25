@@ -16,11 +16,11 @@ $projectPhoneNumber="+420731128030";
 
 
 // Twilio API credentials
-$accountSid = "SK970d31fefe3ee387245abddc464efa61";
-$authToken = "7UZKKpo8ffmcsUiYYQrCOjBVFvJyxFei"; //
-$twilioPhoneNumber = "+420731128030";
+$accountSid = "ACac2d2b855b309f4aee4268b3d60c5e02";
+$authToken = "0c4f5a214ec5bed0eabf2c5d3140d794"; //
+$twilioPhoneNumber = "+4915735983700";
 $siteURL="www.hernisnob.cz";
-
+//7UZKKpo8ffmcsUiYYQrCOjBVFvJyxFei sekret
 
 // Slack Webhook integration
 $slackWebHookURL="https://hooks.slack.com/services/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";
